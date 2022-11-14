@@ -1,11 +1,11 @@
 {
-  "name": "parcel-project-template",
+  "name": "project-ice-htmlcss",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://GALKA03.github.io/team-project-ice",
+  "homepage": "https://GALKA03.github.io/project-ice-htmlcss",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /team-project-ice/"
+    "build": "parcel build src/*.html --public-url /project-ice-htmlcss/"
   },
   "repository": {
     "type": "git",
