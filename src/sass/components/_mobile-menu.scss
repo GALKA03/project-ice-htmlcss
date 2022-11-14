@@ -1,0 +1,122 @@
+.mobile__window {
+    position: relative;
+    z-index: 99;
+}
+
+
+.modal-close-btn__icon {
+    position: absolute;
+    top: 20px;
+    right: 32px;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+        fill: #9b0e31;
+    }
+
+}
+
+.menu {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 254px;
+    background-color: var(--background-mobile-open);
+    transition: all 0.3s ease-in-out;
+    transform: translateX(100vw);
+    z-index: 100;
+    box-shadow: -8px 0px 21px rgba(0, 0, 0, 0.25);
+    padding: 58px 20px;
+}
+
+.menu.active {
+    transform: translateX(0);
+}
+
+.menu__close {
+    text-align: right;
+}
+
+
+
+
+.menu__link {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 131%;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    
+
+    padding-top: 13px;
+    padding-bottom: 13px;
+
+    border-top: 1px solid #E18298;
+    border-bottom: 1px solid #E18298;
+
+    &:hover,
+    &:focus {
+        color: var(--basic-title-color);
+    }
+
+}
+
+
+.menu__button {
+    
+  
+    margin-bottom: 20px;
+}
+
+.buy-now__button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 44px;
+    background: #ffffff;
+    border-radius: 22px;
+    border: none;
+
+    margin: 0 auto;
+
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.31;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: var(--basic-title-color);
+    &:hover,
+    &:focus {
+        background-color: #ECEBEB;
+    }
+}
+
+.buy-now__button svg {
+    width: 8px;
+    height: 20px;
+    fill: none;
+
+    stroke: var(--basic-title-color);
+    stroke-width: 6.4px;
+    margin-left: 21.75px;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
